@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cur_year = 2018;
+var date_birth = 1991;
+var target_year = 100;
+var age = cur_year-date_birth;
+var year_left = target_year-age;
+console.log(`L'eta è ${age} anni e mancano ${year_left} per arrivare a 100 anni.`);
