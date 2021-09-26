@@ -17,4 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
-var cats = 44;
+var cats = 44
+var in_line = 6;
+var numLine = Math.ceil(cats/in_line); // trova quante file
+var missing = (numLine*in_line)-cats;  // trova quanti gatti mancano
+
+console.log(`${cats} gatti in fila per ${in_line} si unirono compatti in ${numLine} file. Nell'ultima fila rimasero ${missing} posti gatto disponibili.`);
